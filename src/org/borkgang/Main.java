@@ -30,8 +30,7 @@ public class Main {
         server.start();
     }
 
-    static class MyHandler implements HttpHandler
-    {
+    static class MyHandler implements HttpHandler {
         @Override
         public void handle(final HttpExchange t) throws IOException {
             final String response = "@HgMRi5Kdx^fMA4pi6!NYUEutax4UaD#7Iu";
